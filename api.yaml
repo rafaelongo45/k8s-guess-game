@@ -24,6 +24,10 @@ spec:
           value: "secretpass"
         - name: POSTGRES_DB
           value: "postgres"
+        - name: FLASK_DB_HOST
+          value: "dominio.rfl.com" 
+        - name: FLASK_DB_PORT
+          value: "30001"
 ---
 apiVersion: v1
 kind: Service
@@ -37,4 +41,4 @@ spec:
     - protocol: TCP
       port: 5000
       targetPort: 5000
-      nodePort: 32000
+      nodePort: 30002
