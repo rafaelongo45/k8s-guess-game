@@ -1,6 +1,6 @@
 # **Kubernetes Guess Game**
 
-Este repositório contém os manifestos e instruções para rodar o sistema **Guess Game** usando Kubernetes. O sistema é composto por:
+Este repositório contém os manifestos para rodar a aplicação **Guess Game** usando Kubernetes. Ele é composto por:
 
 - **Frontend**: React.
 - **Backend**: Flask.
@@ -39,7 +39,6 @@ será necessário a alteração do arquivo hosts do SO.
 
 ```
 minikube addons enable metrics-server
-
 ```
 #### 1. Obtendo o IP do Minikube:
 
